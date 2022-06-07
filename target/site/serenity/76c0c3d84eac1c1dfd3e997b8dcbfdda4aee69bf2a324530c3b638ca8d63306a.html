@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>This will create a new User</title>
+    <title>1. This will Verify if Total record is 20</title>
     <link rel="shortcut icon" href="favicon.ico">
 
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -40,7 +40,10 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-            > This will create a new User
+            > <ol>
+<li>This will Verify if Total record is 20</li>
+</ol>
+
         </span>
         </div>
         <div class="rightbg"></div>
@@ -94,7 +97,10 @@
                             <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
                                     <span class="success-color">
-                                    This Will Create A New User
+                                    <ol>
+<li>This Will Verify If Total Record Is 20</li>
+</ol>
+
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -140,13 +146,13 @@
                         <div class="step-description">
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
-                            <span class="top-level-step">Creating User with name : Tenali Ramakrishna85876, Gender: female, email: tenali.ramakrishna15351@email.com, status: active</span>
+                            <span class="top-level-step">Fetching All user</span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">3.62s</span></td>
+                    <td width="100"><span class="top-level-step">0.7s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -160,7 +166,7 @@
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+                            <span class="nested-group-step">GET https://gorest.co.in/public/v2/users</span>
 
                                 <span class="rest-query">
                 <span>
@@ -179,23 +185,23 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                POST https://gorest.co.in/public/v2/users
+                                GET https://gorest.co.in/public/v2/users
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 201</p>
+                                    <p>Status code: 200</p>
                                     <p>Content Type: application/json</p>
                                     <h5>Request Headers</h5>
                                     <pre>Authorization=Bearer 75c987adac5bd1820e58fb137137e2474501428068d1ec0dd68ae05bcff564c9<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
                                     <h5>Content Body</h5>
-                                    <pre>{<br>    &quot;name&quot;: &quot;Tenali Ramakrishna85876&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;email&quot;: &quot;tenali.ramakrishna15351@email.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <pre></pre>
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Server: nginx<br>Date: Tue, 07 Jun 2022 12:45:35 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>X-Frame-Options: SAMEORIGIN<br>X-XSS-Protection: 0<br>X-Content-Type-Options: nosniff<br>X-Download-Options: noopen<br>X-Permitted-Cross-Domain-Policies: none<br>Referrer-Policy: strict-origin-when-cross-origin<br>X-RateLimit-Limit: 90<br>X-RateLimit-Remaining: 89<br>X-RateLimit-Reset: 1<br>Location: https://gorest.co.in/public/v2/users/6889<br>ETag: W/&quot;20804315f175ff93ec0c53bc48b42076&quot;<br>Cache-Control: max-age=0, private, must-revalidate<br>X-Request-Id: 6767a831-c287-4827-90a0-e5591b084de6<br>X-Runtime: 0.019126<br>Strict-Transport-Security: max-age=63072000; includeSubDomains<br>Vary: Origin</pre>
+                                    <pre>Server: nginx<br>Date: Tue, 07 Jun 2022 12:45:40 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Vary: Accept-Encoding<br>X-Frame-Options: SAMEORIGIN<br>X-XSS-Protection: 0<br>X-Content-Type-Options: nosniff<br>X-Download-Options: noopen<br>X-Permitted-Cross-Domain-Policies: none<br>Referrer-Policy: strict-origin-when-cross-origin<br>X-RateLimit-Limit: 90<br>X-RateLimit-Remaining: 89<br>X-RateLimit-Reset: 1<br>X-Pagination-Total: 3761<br>X-Pagination-Pages: 189<br>X-Pagination-Page: 1<br>X-Pagination-Limit: 20<br>X-Links-Previous: <br>X-Links-Current: https://gorest.co.in/public/v2/users?page=1<br>X-Links-Next: https://gorest.co.in/public/v2/users?page=2<br>ETag: W/&quot;529523065d46582759847197c6b05bc6&quot;<br>Cache-Control: max-age=0, private, must-revalidate<br>X-Request-Id: 442d168d-4014-4a0c-b73a-e4e96f06d005<br>X-Runtime: 0.023489<br>Strict-Transport-Security: max-age=63072000; includeSubDomains<br>Vary: Origin<br>Content-Encoding: gzip</pre>
                                 <h5>Response Body</h5>
                                     <pre>
-                                        {<br>    &quot;id&quot;: 6889,<br>    &quot;name&quot;: &quot;Tenali Ramakrishna85876&quot;,<br>    &quot;email&quot;: &quot;tenali.ramakrishna15351@email.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                        [<br>    {<br>        &quot;id&quot;: 5986,<br>        &quot;name&quot;: &quot;Tenali Ramakrishna11&quot;,<br>        &quot;email&quot;: &quot;tenali11.ramakrishna1@gmail.com&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 5982,<br>        &quot;name&quot;: &quot;Tenali Ramakrishna&quot;,<br>        &quot;email&quot;: &quot;tenali1.ramakrishna1@gmail.com&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3829,<br>        &quot;name&quot;: &quot;Chatura Ahluwalia V&quot;,<br>        &quot;email&quot;: &quot;ahluwalia_chatura_v@heller-dubuque.io&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3822,<br>        &quot;name&quot;: &quot;Bankimchandra Desai&quot;,<br>        &quot;email&quot;: &quot;bankimchandra_desai@kuhn.info&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3821,<br>        &quot;name&quot;: &quot;Tanushri Jha&quot;,<br>        &quot;email&quot;: &quot;jha_tanushri@wilkinson.info&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3819,<br>        &quot;name&quot;: &quot;Gorakhnath Iyengar&quot;,<br>        &quot;email&quot;: &quot;gorakhnath_iyengar@moen.io&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3818,<br>        &quot;name&quot;: &quot;Chidambaram Acharya&quot;,<br>        &quot;email&quot;: &quot;chidambaram_acharya@hahn.net&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3815,<br>        &quot;name&quot;: &quot;Mrs. Digambar Sinha&quot;,<br>        &quot;email&quot;: &quot;sinha_mrs_digambar@lockman-sauer.org&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3813,<br>        &quot;name&quot;: &quot;Rep. Abhirath Joshi&quot;,<br>        &quot;email&quot;: &quot;rep_joshi_abhirath@turner.co&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3812,<br>        &quot;name&quot;: &quot;Jyotis Joshi&quot;,<br>        &quot;email&quot;: &quot;jyotis_joshi@schultz-schoen.io&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3811,<br>        &quot;name&quot;: &quot;Aaditya Shukla&quot;,<br>        &quot;email&quot;: &quot;aaditya_shukla@stiedemann.co&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3810,<br>        &quot;name&quot;: &quot;Mrs. Kama Mukhopadhyay&quot;,<br>        &quot;email&quot;: &quot;mukhopadhyay_kama_mrs@mcclure.org&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3809,<br>        &quot;name&quot;: &quot;Mrs. Ambar Ahluwalia&quot;,<br>        &quot;email&quot;: &quot;mrs_ahluwalia_ambar@gislason-hammes.org&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3808,<br>        &quot;name&quot;: &quot;Sarisha Malik&quot;,<br>        &quot;email&quot;: &quot;malik_sarisha@marvin.biz&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3807,<br>        &quot;name&quot;: &quot;Rep. Dhaanyalakshmi Kaniyar&quot;,<br>        &quot;email&quot;: &quot;rep_dhaanyalakshmi_kaniyar@miller.org&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3805,<br>        &quot;name&quot;: &quot;Damayanti Prajapat PhD&quot;,<br>        &quot;email&quot;: &quot;phd_prajapat_damayanti@kling.biz&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3804,<br>        &quot;name&quot;: &quot;Brajendra Marar&quot;,<br>        &quot;email&quot;: &quot;brajendra_marar@kilback.com&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3803,<br>        &quot;name&quot;: &quot;Msgr. Smita Iyer&quot;,<br>        &quot;email&quot;: &quot;msgr_smita_iyer@osinski.info&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3802,<br>        &quot;name&quot;: &quot;Vedang Somayaji&quot;,<br>        &quot;email&quot;: &quot;somayaji_vedang@carroll.name&quot;,<br>        &quot;gender&quot;: &quot;male&quot;,<br>        &quot;status&quot;: &quot;active&quot;<br>    },<br>    {<br>        &quot;id&quot;: 3801,<br>        &quot;name&quot;: &quot;Dhanpati Reddy&quot;,<br>        &quot;email&quot;: &quot;dhanpati_reddy@hilll.net&quot;,<br>        &quot;gender&quot;: &quot;female&quot;,<br>        &quot;status&quot;: &quot;inactive&quot;<br>    }<br>]
                                     </pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
@@ -222,7 +228,7 @@
                 <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>4.11s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.71s</em></span></td>
                 </tr>
 
             </table>

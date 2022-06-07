@@ -44,6 +44,17 @@ public class UsersSteps {
                 .then();
     }
 
+    @Step("Fetching All user")
+    public ValidatableResponse getAllUsers() {
+
+        return SerenityRest.given().log().all()
+                .contentType(ContentType.JSON)
+                .header("Authorization", "Bearer 75c987adac5bd1820e58fb137137e2474501428068d1ec0dd68ae05bcff564c9")
+                .when()
+                .get(EndPoints.GET_ALL_USER)
+                .then();
+    }
+
     @Step("Update User with ID:{0},name : {1}, Gender: {2}, email: {3}, status: {4}")
     public ValidatableResponse updateUser(int userID,
                                           String name,

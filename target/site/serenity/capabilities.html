@@ -35,11 +35,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 4],
+                ['Passing', 8],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0],
+                ['Errors',  2],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -68,11 +68,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '4 requirements tested successfully'},
+                {label: '8 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
-                {label: '0} requirements with errors'},
+                {label: '2} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -160,7 +160,7 @@
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-06-2022 10:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-06-2022 14:45</span>
     <br style="clear:left"/>
 </div>
 
@@ -192,9 +192,9 @@
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
-                                    <td>4</td>
-                                    <td>4</td>
-                                    <td>0</td>
+                                    <td>10</td>
+                                    <td>8</td>
+                                    <td>2</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -223,9 +223,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>4</td>
-            <td>4 (100%)</td>
-            <td>0 (0%)</td>
+            <td>10</td>
+            <td>8 (80%)</td>
+            <td>2 (20%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -239,15 +239,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>4</td>
-            <td>4 (100%)</td>
-            <td>0 (0%)</td>
+            <td>10</td>
+            <td>8 (80%)</td>
+            <td>2 (20%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">6 seconds</td>
+                <td colspan="5">12 seconds</td>
         </tr>
         </body>
     </table>
@@ -294,9 +294,9 @@
                                 <td class="SUCCESS-text">2</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2022-06-05 10:38:46">10:38:46</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-07 14:45:29">14:45:29</td>
 
-                                <td class="SUCCESS-text">3.52</td>
+                                <td class="SUCCESS-text">4.11</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -317,9 +317,9 @@
                                 <td class="SUCCESS-text">2</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2022-06-05 10:38:50">10:38:50</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-07 14:45:34">14:45:34</td>
 
-                                <td class="SUCCESS-text">0.66</td>
+                                <td class="SUCCESS-text">0.69</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -340,9 +340,9 @@
                                 <td class="SUCCESS-text">2</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2022-06-05 10:38:50">10:38:50</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-07 14:45:34">14:45:34</td>
 
-                                <td class="SUCCESS-text">0.64</td>
+                                <td class="SUCCESS-text">0.67</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -363,9 +363,152 @@
                                 <td class="SUCCESS-text">4</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2022-06-05 10:38:51">10:38:51</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-07 14:45:35">14:45:35</td>
 
-                                <td class="SUCCESS-text">1.28</td>
+                                <td class="SUCCESS-text">1.74</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="76c0c3d84eac1c1dfd3e997b8dcbfdda4aee69bf2a324530c3b638ca8d63306a.html" class="ellipsis"
+                                           title="1. This will Verify if Total record is 20 ">
+                                            <ol>
+<li>This will Verify if Total record is 20</li>
+</ol>
+
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">2</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2022-06-07 14:45:37">14:45:37</td>
+
+                                <td class="SUCCESS-text">0.71</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="1fca1c9af965510ce02252545d6698fb33b4f8afc9fe62e8ce3afb153b57f2d0.html" class="ellipsis"
+                                           title="2.id 3838 has name =Chaturbhuj Nehru DVM Index: 0, Size: 0">
+                                            2.id 3838 has name =Chaturbhuj Nehru DVM
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="ERROR-text">2</td>
+
+
+                                <td class="ERROR-text" data-sort="2022-06-07 14:45:37">14:45:37</td>
+
+                                <td class="ERROR-text">0.7</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="9f46369e7bd0c27eaaf2f0e6cc361493d77520bb4e11de1de91b191284f3e01a.html" class="ellipsis"
+                                           title="3. id 3838 has email =dvm_chaturbhuj_nehru@pagac.name Index: 0, Size: 0">
+                                            <ol>
+<li>id 3838 has email =dvm<em>chaturbhuj</em>nehru@pagac.name</li>
+</ol>
+
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="ERROR-text">2</td>
+
+
+                                <td class="ERROR-text" data-sort="2022-06-07 14:45:38">14:45:38</td>
+
+                                <td class="ERROR-text">0.69</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="189ee8b210e0f183542f89f41fbcd5c6f437169796f2740d044f075360ec7c56.html" class="ellipsis"
+                                           title="4.All ID has status =active ">
+                                            4.All ID has status =active
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">2</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2022-06-07 14:45:39">14:45:39</td>
+
+                                <td class="SUCCESS-text">0.67</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="d321bef092f97449a580d9671086714d426983f025d4c7b3d2d1625e815f3bf8.html" class="ellipsis"
+                                           title="5.id 3829 has gender =female ">
+                                            5.id 3829 has gender =female
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">2</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2022-06-07 14:45:39">14:45:39</td>
+
+                                <td class="SUCCESS-text">0.67</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="5c310f928fde495b1fe6b30012c62d7ef629950b4d3e52c2ddf34c9dbd50dbd4.html" class="ellipsis"
+                                           title="6.id 3819 has gender =male ">
+                                            6.id 3819 has gender =male
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">2</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2022-06-07 14:45:40">14:45:40</td>
+
+                                <td class="SUCCESS-text">0.9</td>
                             </tr>
                         </tbody>
                     </table>
